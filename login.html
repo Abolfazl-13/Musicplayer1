@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css" />
+    <link rel="icon" href="./music logo1_magicstudio_98lgqn75oj.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="label">User Login</h1>
+      <form
+        class="login_form"
+        action="index.html"
+        method="post"
+        name="form"
+        onsubmit="return validated()"
+      >
+        <div class="font">Email or Phone</div>
+        <input
+          placeholder="Please enter your email"
+          autocomplete="off"
+          type="text"
+          name="email"
+        />
+        <div id="email_error">Please fill up your Email or Phone</div>
+        <div class="font font2">Password</div>
+        <input
+          placeholder="Please enter your password"
+          type="password"
+          name="password"
+        />
+        <div id="pass_error">Please fill up your Password</div>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+    <script src="./login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  margin-top: 100px;
+  width: 450px;
+  height: auto;
+  background: #282626;
+  border-radius: 5px;
+  box-shadow: 0 0 20px red;
+}
+.label {
+  padding: 20px 130px;
+  font-size: 35px;
+  font-weight: bold;
+  color: red;
+}
+.login_form {
+  padding: 20px 40px;
+}
+.login_form .font {
+  font-size: 18px;
+  color: red;
+  margin: 5px 0;
+  position: relative;
+  top: -10px;
+}
+.login_form input {
+  height: 40px;
+  width: 350px;
+  padding: 0 5px;
+  font-size: 18px;
+  outline: none;
+  color: white;
+}
+.login_form .font2 {
+  margin-top: 30px;
+}
+.login_form button {
+  margin: 45px 0 30px 0;
+  height: 45px;
+  width: 365px;
+  font-size: 20px;
+  color: #282626;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: red;
+  border-radius: 3px;
+  border: 1px solid red;
+  box-shadow: 0 0 20px red;
+  transition: 0.5s;
+}
+.login_form button:hover {
+  background: #282626;
+  color: red;
+}
+.login_form #email_error,
+.login_form #pass_error {
+  margin-top: 5px;
+  width: 345px;
+  font-size: 18px;
+  color: #c62828;
+  background: rgba(255, 0, 0, 0.1);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid #ef9a9a;
+  display: none;
+}
+::placeholder {
+  color: red;
+  text-align: center;
+}
+input {
+  background-color: #282626;
+  box-shadow: 0 0 10px red;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    position: relative;
+    margin-top: 100px;
+    width: 320px;
+    height: auto;
+    background: #282626;
+    border-radius: 5px;
+    box-shadow: 0 0 20px red;
+  }
+  .label {
+    padding: 20px 130px;
+    font-size: 34px;
+    color: red;
+    width: 300px;
+    left: -58px;
+    position: relative;
+  }
+  .login_form .font {
+    font-size: 18px;
+    color: red;
+    margin: 5px 0;
+    position: relative;
+    top: 0px;
+    left: -20px;
+  }
+  .login_form input {
+    height: 40px;
+    width: 260px;
+    padding: 0 5px;
+    font-size: 16px;
+    outline: none;
+    color: white;
+    position: relative;
+    top: 0px;
+    left: -20px;
+  }
+  ::placeholder {
+    text-align: left;
+  }
+  .login_form button {
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 275px;
+    font-size: 20px;
+    color: #282626;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background: red;
+    border-radius: 3px;
+    border: 1px solid red;
+    box-shadow: 0 0 20px red;
+    transition: 0.5s;
+    margin-left: -20px;
+  }
+}

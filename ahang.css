@@ -1,0 +1,368 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+body {
+  background-color: #3d3838;
+  font-family: sans-serif;
+}
+.choose {
+  position: relative;
+  top: 10px;
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+.img-poori {
+  width: 200px;
+  height: 210px;
+  border-radius: 100%;
+  position: relative;
+  top: 10px;
+  left: 220px;
+}
+.poori-text {
+  position: relative;
+  top: 50px;
+  left: 17px;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: #282626;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.img-fadaei {
+  width: 200px;
+  height: 210px;
+  border-radius: 100%;
+  position: relative;
+  top: 129px;
+  left: 221px;
+}
+.fadaei {
+  position: relative;
+  top: 172px;
+  left: 17px;
+  width: 200px;
+  height: 50px;
+  background-color: #282626;
+  color: red;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.img-quf {
+  width: 200px;
+  height: 210px;
+  border-radius: 100%;
+  position: relative;
+  top: -446px;
+  left: 884px;
+}
+.quf {
+  position: relative;
+  top: -406px;
+  left: 678px;
+  width: 200px;
+  height: 50px;
+  background-color: #282626;
+  color: red;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.hichkas1 {
+  position: relative;
+  top: -286px;
+  left: 677px;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: #282626;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.img-hichkas {
+  width: 200px;
+  height: 210px;
+  border-radius: 100%;
+  position: relative;
+  top: -327px;
+  left: 882px;
+}
+.pishro1 {
+  position: relative;
+  top: -166px;
+  left: 676px;
+  width: 200px;
+  height: 50px;
+  background-color: #282626;
+  color: red;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.yas1 {
+  position: relative;
+  top: -393px;
+  left: 16px;
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: #282626;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.img-pishro {
+  width: 200px;
+  height: 210px;
+  border-radius: 100%;
+  position: relative;
+  top: -220px;
+  left: 882px;
+}
+.img-Yas {
+  width: 200px;
+  height: 210px;
+  border-radius: 100%;
+  position: relative;
+  top: -444px;
+  left: 222px;
+}
+.btn-back {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  box-shadow: 0 0 20px red;
+  color: #282626;
+  position: relative;
+  top: -130px;
+  left: 0px;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #3d3838;
+    font-family: sans-serif;
+    width: 345px;
+  }
+  .choose {
+    position: relative;
+    top: 10px;
+    color: red;
+    font-size: 38px;
+    text-align: center;
+  }
+  .img-poori {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 30px;
+    left: 0px;
+  }
+  .poori-text {
+    position: relative;
+    top: -40px;
+    left: 17px;
+    width: 180px;
+    height: 60px;
+    background-color: red;
+    color: #282626;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .img-fadaei {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 49px;
+    left: 1px;
+  }
+  .fadaei {
+    position: relative;
+    top: -20px;
+    left: 17px;
+    width: 180px;
+    height: 60px;
+    background-color: #282626;
+    color: red;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .img-quf {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 63px;
+    left: -3px;
+  }
+  .quf {
+    position: relative;
+    top: -6px;
+    left: 18px;
+    width: 180px;
+    height: 60px;
+    background-color: #282626;
+    color: red;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .img-hichkas {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 71px;
+    left: -2px;
+  }
+  .img-pishro {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 78px;
+    left: -2px;
+  }
+  .hichkas1 {
+    position: relative;
+    top: -8px;
+    left: 17px;
+    width: 180px;
+    height: 60px;
+    background-color: red;
+    color: #282626;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .pishro1 {
+    position: relative;
+    top: 4px;
+    left: 16px;
+    width: 180px;
+    height: 60px;
+    background-color: #282626;
+    color: red;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .img-Yas {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: relative;
+    top: 85px;
+    left: -3px;
+  }
+
+  .yas1 {
+    position: relative;
+    top: 14px;
+    left: 16px;
+    width: 180px;
+    height: 60px;
+    background-color: red;
+    color: #282626;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .btn-back {
+    width: 180px;
+    height: 60px;
+    background-color: red;
+    box-shadow: 0 0 20px red;
+    color: #282626;
+    position: relative;
+    top: 140px;
+    left: 0px;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .poori-text:hover {
+    background-color: #282626;
+    color: red;
+    transition: 350ms;
+  }
+  .hichkas1:hover {
+    background-color: #282626;
+    color: red;
+    transition: 350ms;
+  }
+  .quf:hover {
+    background-color: red;
+    color: #282626;
+    transition: 350ms;
+  }
+  .fadaei:hover {
+    background-color: red;
+    color: #282626;
+    transition: 350ms;
+  }
+  .btn-back:hover {
+    background-color: #282626;
+    color: red;
+    transition: 350ms;
+  }
+}
+.poori-text:hover {
+  background-color: #282626;
+  color: red;
+  transition: 350ms;
+}
+.hichkas1:hover {
+  background-color: #282626;
+  color: red;
+  transition: 350ms;
+}
+.quf:hover {
+  background-color: red;
+  color: #282626;
+  transition: 350ms;
+}
+.fadaei:hover {
+  background-color: red;
+  color: #282626;
+  transition: 350ms;
+}
+.btn-back:hover {
+  background-color: #282626;
+  color: red;
+  transition: 350ms;
+}
+.pishro1:hover {
+  background-color: red;
+  color: #282626;
+  transition: 350ms;
+}
+.yas1:hover {
+  background-color: #282626;
+  color: red;
+  transition: 350ms;
+}

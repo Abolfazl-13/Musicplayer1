@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+}
+body {
+  background-color: #3d3838;
+  font-family: sans-serif;
+}
+.header {
+  display: flex;
+  width: 1280px;
+  height: 73px;
+  background-color: #282626;
+  color: red;
+  justify-content: center;
+  position: relative;
+  top: -8px;
+  left: -8px;
+}
+.info1 {
+  width: 1220px;
+}
+.musiclogo {
+  width: 260px;
+  height: 200px;
+  position: relative;
+  left: 860px;
+  top: 100px;
+}
+.text2 {
+  position: relative;
+  top: -140px;
+  left: 34px;
+  color: red;
+  font-size: 40px;
+}
+.paragraph1 {
+  position: relative;
+  top: -160px;
+  left: 40px;
+  color: red;
+  font-size: 30px;
+  width: 600px;
+}
+.text3 {
+  color: red;
+  font-size: 50px;
+  position: relative;
+  left: 870px;
+  top: 70px;
+}
+.btn-login {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  box-shadow: 0 0 20px red;
+  color: #282626;
+  position: relative;
+  top: -170px;
+  left: 40px;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.paragraph2 {
+  position: relative;
+  top: -160px;
+  left: 40px;
+  color: red;
+  font-size: 30px;
+  width: 600px;
+}
+.btn-music {
+  width: 200px;
+  height: 50px;
+  background-color: #282626;
+  color: red;
+  position: relative;
+  top: -170px;
+  left: 160px;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.btn-aboutus {
+  width: 200px;
+  height: 50px;
+  background-color: #282626;
+  color: red;
+  position: relative;
+  top: -80px;
+  left: -369px;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.btn-comment {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: #282626;
+  position: relative;
+  top: -80px;
+  left: -249px;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+.btn-buy {
+  width: 200px;
+  height: 50px;
+  background-color: #282626;
+  color: red;
+  position: relative;
+  top: 0px;
+  left: -630px;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+@media only screen and (max-width: 800px) {
+  .header {
+    display: flex;
+    width: 410px;
+    height: 93px;
+    background-color: #282626;
+    color: red;
+    justify-content: center;
+    position: relative;
+    top: -8px;
+    left: -8px;
+  }
+  .header h1 {
+    color: red;
+    position: relative;
+    left: 1px;
+    top: 23px;
+    font-size: 22px;
+  }
+  .musiclogo {
+    width: 180px;
+    height: 150px;
+    position: relative;
+    left: 211px;
+    top: 110px;
+  }
+  .text2 {
+    position: relative;
+    top: -69px;
+    left: -8px;
+    color: red;
+    font-size: 24px;
+  }
+
+  .paragraph1 {
+    position: relative;
+    top: -80px;
+    left: 0px;
+    color: red;
+    font-size: 24px;
+    width: 190px;
+  }
+
+  .btn-login {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: #282626;
+    position: relative;
+    top: -40px;
+    left: 10px;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .btn-aboutus {
+    width: 150px;
+    height: 50px;
+    background-color: #282626;
+    color: red;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .btn-music {
+    width: 150px;
+    height: 50px;
+    background-color: #282626;
+    color: red;
+    position: relative;
+    top: -40px;
+    left: 65px;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .btn-comment {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: #282626;
+    position: relative;
+    top: 10px;
+    left: 67px;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+  .info1 {
+    width: 400px;
+  }
+  .btn-buy {
+    width: 150px;
+    height: 50px;
+    background-color: #282626;
+    color: red;
+    position: relative;
+    top: 49px;
+    left: 120px;
+    font-size: 21px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 20px red;
+  }
+}
+.btn-login:hover {
+  background-color: #282626;
+  color: red;
+  transition: 300ms;
+}
+.btn-comment:hover {
+  background-color: #282626;
+  color: red;
+  transition: 300ms;
+}
+.btn-music:hover {
+  background-color: red;
+  color: #282626;
+  transition: 300ms;
+}
+.btn-aboutus:hover {
+  background-color: red;
+  color: #282626;
+  transition: 300ms;
+}
+.btn-buy:hover {
+  background-color: red;
+  color: #282626;
+  transition: 300ms;
+}

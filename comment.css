@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #181717;
+  font-family: sans-serif;
+}
+.container {
+  width: 780px;
+  height: 780px;
+  background-color: #282626;
+  position: relative;
+  top: 90px;
+  left: 240px;
+  border-radius: 35px;
+}
+.header {
+  color: red;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-size: 50px;
+}
+.img1 {
+  width: 110px;
+  height: 90px;
+  border-radius: 100%;
+  position: relative;
+  top: 140px;
+  left: 10px;
+}
+.img2 {
+  width: 110px;
+  height: 90px;
+  border-radius: 100%;
+  position: relative;
+  top: 147px;
+  left: 10px;
+}
+.img3 {
+  width: 110px;
+  height: 90px;
+  border-radius: 100%;
+  position: relative;
+  top: 154px;
+  left: 10px;
+}
+.img4 {
+  width: 110px;
+  height: 90px;
+  border-radius: 100%;
+  position: relative;
+  top: 160px;
+  left: 10px;
+}
+.info {
+  color: red;
+  font-size: 20px;
+  position: relative;
+  top: 90px;
+  left: 150px;
+  animation: animate 1s linear infinite;
+}
+.user {
+  color: red;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+  left: 150px;
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+.info2 {
+  color: red;
+  font-size: 20px;
+  position: relative;
+  top: 90px;
+  left: 150px;
+  animation: animate 1s linear infinite;
+}
+.user2 {
+  color: red;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+  left: 150px;
+  animation: animate 1s linear infinite;
+}
+.info3 {
+  color: gold;
+  font-size: 20px;
+  position: relative;
+  top: 90px;
+  left: 150px;
+}
+.user3 {
+  color: gold;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+  left: 150px;
+}
+.info3 {
+  color: gold;
+  font-size: 20px;
+  position: relative;
+  top: 90px;
+  left: 150px;
+}
+.user3 {
+  color: gold;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+  left: 150px;
+}
+.info4 {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 90px;
+  left: 150px;
+}
+.user4 {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+  left: 150px;
+}
+.btn-back {
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  color: #282626;
+  position: relative;
+  top: 90px;
+  left: 310px;
+  font-size: 21px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 20px red;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 160px;
+    height: 100%;
+    background-color: #181717;
+  }
+
+  .header {
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 40px;
+    left: -140px;
+  }
+  .img1 {
+    width: 110px;
+    height: 90px;
+    border-radius: 100%;
+    position: relative;
+    top: 140px;
+    left: -220px;
+  }
+
+  .info {
+    color: red;
+    position: relative;
+    top: 73px;
+    left: -100px;
+    animation: animate 1s linear infinite;
+    font-size: 22px;
+    width: 190px;
+  }
+  .user {
+    color: red;
+    font-size: 16px;
+    position: relative;
+    top: -56px;
+    left: -130px;
+    animation: animate 1s linear infinite;
+    width: 265px;
+  }
+  .img2 {
+    width: 110px;
+    height: 90px;
+    border-radius: 100%;
+    position: relative;
+    top: 147px;
+    left: -220px;
+  }
+  .info2 {
+    color: red;
+    font-size: 22px;
+    position: relative;
+    top: 90px;
+    left: -90px;
+    animation: animate 1s linear infinite;
+    width: 262px;
+  }
+  .user2 {
+    color: red;
+    font-size: 15px;
+    position: relative;
+    top: 9px;
+    left: -120px;
+    animation: animate 1s linear infinite;
+    width: 240px;
+  }
+  .img3 {
+    width: 110px;
+    height: 90px;
+    border-radius: 100%;
+    position: relative;
+    top: 203px;
+    left: -220px;
+  }
+  .info3 {
+    color: gold;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    left: -90px;
+  }
+  .user3 {
+    color: gold;
+    font-size: 15px;
+    position: relative;
+    top: 67px;
+    left: -127px;
+    width: 270px;
+  }
+
+  .img4 {
+    width: 110px;
+    height: 90px;
+    border-radius: 100%;
+    position: relative;
+    top: 266px;
+    left: -220px;
+  }
+  .info4 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 211px;
+    left: -90px;
+  }
+  .user4 {
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: 129px;
+    left: -130px;
+    width: 240px;
+  }
+}
